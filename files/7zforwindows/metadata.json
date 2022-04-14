@@ -1,0 +1,10 @@
+{
+    "fileName": "7z2107-x64.exe", 
+    "formatKey": "unknown", 
+    "key": "7zforwindows", 
+    "md5": "49839f0c227b5f9399b59f6ae94a7c7b", 
+    "name": "7z for Windows", 
+    "remoteUri": "https://www.7-zip.org/a/7z2107-x64.exe", 
+    "size": 1533613, 
+    "type": "com.servertribe.attune.tuples.FileArchiveLargeTuple"
+}

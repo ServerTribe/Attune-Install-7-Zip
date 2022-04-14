@@ -1,0 +1,15 @@
+# Script Variables
+$fileLocation = "c:\software\"
+$installer = "7z2107-x64.exe"
+$software = "7-Zip"
+
+# Cleanup installer.
+if (Test-Path $fileLocation$installer)
+{
+    Remove-Item $fileLocation$installer
+    Write-Host "Cleaned up '$software' installer."
+}
+else
+{
+    Write-Host "'$software' installer not found."
+}

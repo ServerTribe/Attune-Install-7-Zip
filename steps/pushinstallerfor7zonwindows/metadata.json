@@ -1,0 +1,11 @@
+{
+    "archiveKey": "7zforwindows", 
+    "deployPath": "/c$/software/", 
+    "enabled": true, 
+    "key": "pushinstallerfor7zonwindows", 
+    "name": "Push Installer for 7z on Windows", 
+    "osCredKey": "windowsuseradministrator", 
+    "serverKey": "7znode", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
+    "unpack": false
+}

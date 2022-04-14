@@ -1,0 +1,6 @@
+{
+    "key": "7znode", 
+    "name": "7z Node", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.WindowsServer"
+}

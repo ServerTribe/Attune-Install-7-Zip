@@ -1,0 +1,26 @@
+# Script Variables
+$downloadLink = "https://www.7-zip.org/a/7z2107-x64.exe"
+$fileLocation = "c:\software\"
+$installer = "7z2107-x64.exe"
+$software = "7-Zip"
+
+# Check if the software is already installed.
+$installed = (`
+Get-ItemProperty HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\* | `
+where { $_.DisplayName -like "$software*" }) -ne $null
+
+if($installed) 
+{
+	Write-Host "'$software' is already installed."
+} 
+else 
+{
+# Download the installer
+    Write-Host "Downloading the '$software' installer..."
+    if (-not (Test-Path $fileLocation)) 
+    {
+        New-Item -ItemType "directory" -Path "$fileLocation"
+    }
+    Invoke-WebRequest $downloadLink -OutFile $fileLocation$installer
+    Get-Item $fileLocation$installer
+}

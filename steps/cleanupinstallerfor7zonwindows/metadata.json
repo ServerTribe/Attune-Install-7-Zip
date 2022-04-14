@@ -1,0 +1,14 @@
+{
+    "enabled": true, 
+    "interpreter": 2, 
+    "interpreterCommand": null, 
+    "interpreterScriptExt": null, 
+    "interpreterScriptSyntax": "powershell", 
+    "key": "cleanupinstallerfor7zonwindows", 
+    "name": "Cleanup Installer for 7z on Windows", 
+    "osCredKey": "windowsuseradministrator", 
+    "serverKey": "7znode", 
+    "successExitCode": 0, 
+    "timeout": null, 
+    "type": "com.servertribe.attune.tuples.StepWinRmTuple"
+}

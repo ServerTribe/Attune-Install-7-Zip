@@ -1,0 +1,22 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "install7zonwindowsoffline", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "pushinstallerfor7zonwindows"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "runinstallerfor7zonwindows"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "cleanupinstallerfor7zonwindows"
+        }
+    ], 
+    "name": "Install 7z on Windows - OFFLINE", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}
